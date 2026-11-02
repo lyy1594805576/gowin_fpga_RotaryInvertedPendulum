@@ -1,4 +1,4 @@
-# jiexiev6 — FPGA 旋转倒立摆
+# FPGA 旋转倒立摆
 
 基于 Gowin **GW2A-LV55PG484C8/I7** 的旋转倒立摆（Furuta pendulum）控制工程，包含 Verilog RTL、引脚/时钟约束和 Python 上位机。
 
