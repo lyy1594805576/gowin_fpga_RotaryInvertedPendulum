@@ -1,0 +1,12 @@
+* text=auto
+*.v text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.tcl text eol=lf
+*.sdc text eol=lf
+*.cst text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.ps1 text eol=crlf
+# Preserve the exact original RTL/constraint bytes used by SOURCE_SNAPSHOT.
+src/** -text

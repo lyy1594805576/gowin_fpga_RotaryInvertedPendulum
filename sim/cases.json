@@ -1,0 +1,31 @@
+{
+  "pid_fixed_tb": [
+    "pid_fixed.v"
+  ],
+  "motor_ctrl_tb": [
+    "motor_ctrl.v"
+  ],
+  "adc_phase_tb": [
+    "adc.v"
+  ],
+  "adc_robust_tb": [
+    "adc.v",
+    "adc_spike_filter.v"
+  ],
+  "sampling_tb": [
+    "adc.v",
+    "avg5.v"
+  ],
+  "bin_to_bcd_tb": [
+    "bin_to_bcd.v"
+  ],
+  "dbg_uart_tb": [
+    "dbg_uart.v",
+    "bin_to_bcd.v",
+    "uart_tx.v"
+  ],
+  "trace_uart_tb": [
+    "pendulum_trace_uart.v",
+    "uart_tx.v"
+  ]
+}

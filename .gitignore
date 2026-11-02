@@ -1,0 +1,34 @@
+# Generated FPGA / IDE artifacts
+/impl/
+/firmware/
+/build_verified.json
+*.gprj.user
+*.fs
+*.bit
+*.vvp
+*.vcd
+*.fst
+*.log
+*_result.txt
+/sim/trace_uart_fixture.hex
+/sim/pid_command_fixture.hex
+/sim/friction_ff_commands.hex
+# Runtime recordings and reports
+logs/
+sessions/
+reports/
+backup*/
+experiments/
+src_r3_full/
+# Python and local settings
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
